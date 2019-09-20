@@ -14,7 +14,7 @@ repositories {
 def grpcVersion = '1.21.0'
 
 dependencies {
-    compile files('libs/GrpcDemo-1.0-SNAPSHOT.jar')
+    compile files('libs/GrpcStub-1.0-SNAPSHOT.jar')
     implementation "io.grpc:grpc-protobuf:${grpcVersion}"
     implementation "io.grpc:grpc-stub:${grpcVersion}"
     runtimeOnly "io.grpc:grpc-netty-shaded:${grpcVersion}"
